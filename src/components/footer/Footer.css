@@ -39,21 +39,6 @@
     margin-right: 10px;
 }
 
-/* .footercontentthree{
-    padding-left: 60px;
-    border-left: groove;
-}
-
-.footercontenttwo{
-  padding-left: 80px;
-  border-left: groove;
-}
-
-.footercontentfour{
-    padding-left: 20px;
-    border-left: groove;
-} */
-
 .footer-info{
     background-color: darkslategray;
     color: wheat;
@@ -75,7 +60,7 @@
     float: right;
     text-align: center;
     justify-content: center;
-    margin-top: -5%;
+    margin-top: -9%;
     padding-right: 80px;
 }
 
@@ -87,4 +72,16 @@
     to {left: 300px;}
   }
 
+  .fooIcon{
+      margin-top: -10%;
+      color:#fff;
+      width: 20%;
+      height: 10%;
+      font-size: 150%;
+  } 
+
+  a:hover{
+      animation: pulse infinite 2s;
+      font-size: 190%;
+  }
   

@@ -3,7 +3,7 @@ import "./Footer.css";
 import whatsapp from "../../assets/images/WhatsApp.png";
 import insta from "../../assets/images/insta.jpg";
 import fb from "../../assets/images/facebook.png";
-import ReachUs from "./ReachUs";
+
 const Footer = () => {
   return (
     <React.Fragment>
@@ -52,9 +52,38 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      
       </div>
-      <ReachUs/>
+
+      <div className="section">
+        <div className="footer-info">
+          <span>Copyright © 2021 3EyeVisions Technology</span>
+          <p className="foo-text">Powered by 3EyeVisions Technology</p>
+          <div className="reachme">
+            <p style={{ marginTop: "25%", fontSize: "110%" }}>Reach Us</p>
+            <a
+              href="https://wa.me/9538301143"
+              target="_blank"
+              className="fooIcon"
+            >
+              <img src={whatsapp} alt="" width="40" height="40" />
+            </a>
+            <a
+              href="https://www.facebook.com/3RdEyeVisionsTech/"
+              target="_blank"
+              className="fooIcon"
+            >
+              <img src={fb} alt="" width="35" height="30" />
+            </a>
+            <a
+              href=" https://www.instagram.com/3rd_eye_visions_technology/ "
+              target="_blank"
+              className="fooIcon"
+            >
+              <img src={insta} alt="" width="30" height="30" />
+            </a>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
